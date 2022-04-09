@@ -1,0 +1,61 @@
+:root{
+    --navbar:rgb(128, 128, 128);
+    --light: rgb(182, 182, 182);
+}
+#loginbutton{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content:flex-end;
+    fill: var(--light);
+}
+#login{
+    background-color: var(--light);
+    border-color: var(--light);
+}
+nav a{
+    color:var(--navbar);
+    text-align:justify;
+    text-decoration:none;
+    padding-right:5%;
+    border-right: 1px solid var(--light);
+    font-size:small;
+}
+#contactus{
+    border-right: 0px;
+    padding: 0%;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+}
+.bottomhr{
+    margin-bottom:2%;
+}
+footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    font-size: small;
+    width: 100%;
+    color:black;
+    margin-top: 0%;
+    padding:0%;
+    margin-bottom: 0%;
+}
+footer a{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    color:var(--navbar);
+    text-align: center;
+    margin:2%;
+    text-decoration:none;
+    margin-top:1%;
+    margin-bottom: 1%;   
+}
+#footerhr{
+    margin-bottom:0%;
+    padding-bottom:0%;
+}
