@@ -1,0 +1,171 @@
+:root{
+    --navbar:rgb(128, 128, 128);
+    --light: rgb(182, 182, 182);
+
+}
+body, html{
+    background-image:url(../images/nza_background.jpg);
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+#center-content{
+    background-color: white;
+    width: 90vw;
+    
+}
+main{
+    background-color: white;
+
+}
+#loginbutton{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content:flex-end;
+    fill: var(--light);
+}
+#login{
+    background-color: var(--light);
+    border-color: var(--light);
+}
+
+nav a {
+    border-right: 1px solid lightgray;
+    padding-right: 5%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav{ 
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#contactus{
+    border-right: none;
+    padding-right: 0
+}
+
+
+.text{
+    background-image: url(../images/nav_side.jpg);
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: normal;
+    height: 55vh;
+    
+}
+#work{
+    border-bottom: 3px solid white;
+    padding-bottom:1%;
+    color: white;
+    font-weight: small;
+    font-size: 175%; 
+}
+.text li{
+    color: white;
+    padding-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom:1%;
+    
+}
+.dude{
+    display: block;
+    
+
+}
+
+.actual{
+    border-top: 3px solid lightgray;
+    margin-top: 1%;
+    padding-top:1%;
+}
+.state-columns1{
+    list-style: none;
+    font-size:80%;
+
+}
+.United{
+    font-size: 80%;
+    
+}
+
+#nationaltext{
+    font-weight: bold;
+    margin-bottom: 4%;
+    border-bottom: 3px solid lightgray;
+    padding-bottom:2%;
+    font-size:80%;
+
+}
+.international li{
+    font-size: 60%
+}
+.state-columns2{
+    list-style: none;
+    font-size:80%;
+}
+.state-columns3{
+    list-style: none;
+    font-size:80%;
+}
+.state-columns1 li{
+    text-decoration: none;
+}
+
+
+.dude2{
+    width: 100%;
+}
+footer{
+
+    text-align: center;
+    border-top: 3px solid black;
+    margin-top:1%;
+}
+.career{
+    padding-bottom: 20%;
+
+}
+.international li{
+    list-style: none;
+    
+    
+}
+footer span{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+footer span:after{
+    margin-right: 1%;
+    margin-left: 1%;
+    text-decoration: line-through;
+    content: "\00a0\00a0\00a0\00a0";
+    color: lightgray;
+}
+footer a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border: none;
+    width: 100%;
+}
+
+#other-text{
+    height:100%;
+}
