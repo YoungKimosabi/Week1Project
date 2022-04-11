@@ -21,6 +21,7 @@ main{
     background-color: white;
 
 }
+
 #loginbutton{
     display:flex;
     flex-direction:row;
@@ -56,6 +57,7 @@ nav{
     border-right: none;
     padding-right: 0
 }
+
 
 
 .text{
@@ -144,8 +146,6 @@ footer{
 }
 .international li{
     list-style: none;
-    
-    
 }
 footer span{
     margin-top: 1%;
@@ -159,11 +159,14 @@ footer span:after{
     color: lightgray;
 }
 footer a{
+
     font-weight: bold;
+
     text-decoration: none;
     color: black;
     border: none;
     width: 100%;
+
 }
 
 #other-text{
