@@ -1,0 +1,135 @@
+:root{
+    --navbar:rgb(128,128,128);
+    --light: rgb(182,182,182;)
+}
+
+body, html{
+    background-image:url(../images/nza_background.jpg);
+    margin:0;
+    padding:0;
+}
+
+#center-content{
+    background-color:white;
+    width: 80vw;
+}
+
+main{
+    background-color:white;
+    margin: 2%;
+}
+
+#loginbutton{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content:flex-end;
+    fill: var(--light);
+}
+
+#login{
+    background-color:grey;
+    border-color:grey;
+}
+
+#logo{
+    padding-bottom: 10px;
+}
+
+#navbar{
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#navbar a{
+    border-right: 1px solid lightgray;
+    padding-right: 5%;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+
+#mainshow{
+padding-left: 0px;
+padding-right: 0px;
+margin: 0;
+padding-top: 1%;
+padding-bottom: 4%;
+}
+
+#middle{
+
+}
+
+
+.infotext{ 
+    background-image: url(../images/nav_side.jpg);
+    color: white;
+    left: 5px;
+    font-size: 13px;
+    text-align:left;
+    padding-top: 1%;
+}
+
+.infotext img{
+    align-items: center;
+}
+
+
+#leftbox{
+   flex-direction: column;
+   justify-content: end;
+
+}
+
+
+#rightbox{
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+
+
+footer{
+    text-align: center;
+    border-top: 2px solid black;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    border: none;
+    width:10%;
+
+}
+
+.tab{
+    tab-size: 4;
+    list-style-type: none;
+}
+
+h5{
+    border-bottom: 2px solid white;
+    padding-top: 1%;
+    
+}
+
+.col-4{
+    padding-inline: 1px;
+}
+
+.infotext ul{
+    padding-bottom: 0px;
+}
+
