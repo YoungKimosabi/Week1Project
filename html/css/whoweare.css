@@ -10,7 +10,7 @@ body, html{
 #center-content{
     background-color: white;
     border: none;
-    width: 90vw;
+    width: 80vw;   
 }
 main{
     background-color: white;
@@ -27,17 +27,11 @@ main{
     background-color: var(--light);
     border-color: var(--light);
 }
-nav a {
-    border-right: 1px solid var(--light);
-    padding-right: 5%;
-    text-decoration: none;
-    color: black;
-}
 nav{
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -45,24 +39,34 @@ nav{
     padding-bottom: 1%;
     font-size:smaller;
 }
+nav a {
+    border-right: 1px solid var(--light);
+    padding-right: 5%;
+    text-decoration: none;
+    color: black;
+}
 #contactus{
     border-right: none;
     padding-right: 0
 }
 .images{
+    width:100%;
     padding:0px;
     margin:0px;
-    width:105%;
+}
+.forwardthinking img{
+    width:100%;
+    height:auto;
 }
 .newsfeed{
     background-image: url(../images/nav_side_sub.jpg);
+    height: 363px;
+    width: 200px;
     background-repeat: no-repeat;
     background-attachment:scroll;
     color:white;
     font-weight: lighter;
     font-size: small;
-    height:363px;
-    width:200px;
 }
 h5{
     margin-top:2%;
@@ -72,10 +76,13 @@ h5{
     width:90%;
 }
 h6{
+    font-size: small;
     margin-bottom:0px;
 }
 .bottom_text{
-    width:105%;
+    width:100%;
+    margin:0px;
+    padding:0%;
 }
 .welcome{
     color:black;
@@ -84,9 +91,10 @@ h6{
     text-justify: left;
 }
 .bigshot{
+    color: black;
     padding-top:5%;
     font-size: x-small;
-    text-justify: left;
+    text-align: left;
     padding-bottom: 5%;
 }
 .bigshot p{
